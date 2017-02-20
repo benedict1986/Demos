@@ -11,6 +11,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IdentityServer4DemoWebAppli
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MySSOServer", "MySSOServer\MySSOServer.xproj", "{0425404F-EC28-4B01-B228-7D775165ED30}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MySSOApi", "MySSOApi\MySSOApi.xproj", "{5A06B241-114F-45F9-B7ED-4D43162AC17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySSOConsoleUser", "MySSOConsoleUser\MySSOConsoleUser.csproj", "{B2926A79-E47B-4385-9481-7A38B4243144}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{0425404F-EC28-4B01-B228-7D775165ED30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0425404F-EC28-4B01-B228-7D775165ED30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0425404F-EC28-4B01-B228-7D775165ED30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A06B241-114F-45F9-B7ED-4D43162AC17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A06B241-114F-45F9-B7ED-4D43162AC17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A06B241-114F-45F9-B7ED-4D43162AC17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A06B241-114F-45F9-B7ED-4D43162AC17A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2926A79-E47B-4385-9481-7A38B4243144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2926A79-E47B-4385-9481-7A38B4243144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2926A79-E47B-4385-9481-7A38B4243144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2926A79-E47B-4385-9481-7A38B4243144}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
